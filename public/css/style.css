@@ -1,0 +1,157 @@
+/* common */
+body, button, input, textarea { font-family: "맑은 고딕", "Malgun Gothic", "애플 SD 산돌고딕 Neo", "Apple SD Gothic Neo", sans-serif }
+code[class*="language-"], pre[class*="language-"] { font-family: "맑은 고딕", "Malgun Gothic", "애플 SD 산돌고딕 Neo", "Apple SD Gothic Neo", sans-serif }
+.clearfix::after{content:'';clear:both;display:block;}
+ol, ul {list-style: none;}
+.font-30{font-size:30px;}
+.mb-2{margin-bottom:0 !important;}
+.card-body{padding: 1rem 1rem !important;}
+.ms-1{margin-left: 0px !important;}
+
+/* profile */
+
+.notification-list .account-user{font-size: 15px;margin-left:20px;}
+.profile-dropdown{max-height: 200px;overflow: hidden;overflow-y: auto;}
+.profile-info{margin-right: 20px;}
+.profile-info .nav-user{padding: 6px 20px 0px !important;}
+.profile-info a{position:relative;}
+.profile-info a .badge {position:absolute;top: 9px;right: 3px;}
+.profile-info .uil-users-alt{font-size:28px;}
+.noti-title .user-name{font-size:15px; font-weight:600;}
+
+
+
+/* nav */
+.top-tit {margin-top: 20px;}
+.now-date{text-align: center;margin: 8px 40px 7px;position: relative;}
+.now-date::after{content: '';width: 1px;height:25px;position: absolute;right:-20px;top:8px;background: #ddd;}
+.nav-tabs.nav-bordered li a{font-size:17px;}
+.logo span.logo-lg h2{margin:20px 0;}
+.logo span.logo-sm h3{margin-top:25px;}
+.hd-drop{margin: 12px 0px 0 0px;}
+.navbar-custom{min-height: 40px;}
+.navbar-custom .avatar-xs{float:left;margin-right:10px;}
+.navbar-custom .avatar-sm{margin-top: 4px;}
+.button-menu-mobile {line-height: 54px !important;}
+.nav-user{min-height: 55px !important;}
+.notification-list .noti-icon-badge{right: 2px;top: 17px;}
+.notification-list .noti-icon{line-height: 55px !important;}
+
+
+/* breadcrumb */
+.page-title-box .breadcrumb{font-size:18px !important;}
+.main-breadcrumb .breadcrumb{padding:5px !important;}
+.breadcrumb-item+.breadcrumb-item::before{line-height:1.6 !important;}
+
+/* title */
+.title {position:relative;}
+.page-title-box .pro-tit{justify-content: center;align-items: center;width: 100%;margin-bottom:10px;}
+.page-title-box .main-pro-tit{padding:0; margin:0;}
+.main-pro-tit{display:flex;}
+.page-title-box .pro-tit li{float:left;margin:0 5px;}
+.page-title-box .btn-group-lg>.btn, .btn-lg{padding: 0.4rem 1rem !important;}
+.sts-tit{display:flex;}
+.title-right{position:absolute;right: 10px;top: 15px;}
+.page-title-right{text-align: right;}
+.right-btn{text-align: right;}
+
+/* table */
+.btn-area{padding:0;}
+.table-top-btn{margin-bottom:5px;}
+.table-top-btn button{margin-left:5px;}
+.table-top-btn i{margin-right:5px;}
+.table-top-btn .left-btn{float:left;}
+.table-top-btn .right-btn{float:right;}
+.table-com .mb-3 { margin-bottom: 1rem;}
+.table>:not(caption)>*>*{padding: 0.5rem 0.5rem !important;}
+.table-btn-l{float:left;}
+.table-btn-r{float:right;}
+.item-set td:last-child{text-align: right;}
+.dataTables_info{padding-bottom:10px;text-align: right;}
+.text-set i{margin:0;}
+.type-secl{margin-bottom:20px;}
+.type-secl button{float:left;}
+.type-secl .secl-btn{margin-left:10px;}
+
+/* log-list */
+.log-list-com{margin-bottom:20px;}
+.log-list{overflow: auto;}
+.log-list .header-title{font-size:17px;}
+.log-list ul{ height:300px; overflow:auto;}
+.modal-body .table>:not(caption)>*>*{padding: 0.5rem 0.5rem;}
+.list-group-item{padding: 0px !important; position:relative;margin-left:20px;margin-bottom:4px;}
+.log-btn{float:right;}
+.list-group-item::before{width:5px;height:5px;background-color:#727cf5;border-radius:30px;content:'';position:absolute;left:-15px;top:8px;}
+
+/* modal-control */
+.modal-bread{padding:0 0 20px !important;}
+.modal-body .input-margin{margin-bottom:0;}
+.modal-width {max-width:400px;}
+.modal-backdrop.show{opacity: 0;}
+.modal-body {padding:1.5rem 1rem !important;}
+.modal-width-revision{max-width: 360px;}
+.modal-after-left{margin-right:20px;}
+.modal-after{position: absolute;}
+.modal-after:after{content:'';width:1px;height:16.5px;position:absolute;left:-10px;top:10%;background:#6F767D;}
+.modal-shadow{box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1), 0px 4px 8px rgba(0, 0, 0, 0.08), 0px 1px 12px rgba(0, 0, 0, 0.04);}
+.breadcrumb-item+.breadcrumb-resize::before{line-height: 1.1 !important;}
+.modal-com{margin-top:20px;}
+.modal-com-text{margin:0;}
+
+
+.revision-modal .dropdown{display: inline-block; width:160px;}
+.revision-modal .dropdown button{width: 140px;}
+.revision-modal { margin: 20px 0;}
+
+.logo-text{color:#fff;font-weight:700;font-size:2.5rem;}
+.login-btn{width:100%;padding:.7rem .9rem;}
+.modal-backdrop.show{opacity: 0 !important;}
+.alert-modal .modal-header{border-bottom:0px;}
+.alert-modal .modal-footer{border-top:0px;}
+
+.com-progress h4{font-size:20px !important;}
+.com-progress .active{background-color:#7280ED10;   }
+.main-progress .fw-normal{font-size:20px;font-weight:700 !important;}
+.progress-date{margin-left:10px;font-size:15px;font-weight:400;line-height:24px;color: #999 !important;}
+.com-progress .active{border: 1px solid var(--ct-link-hover-color)!important;}
+.co-profile .chat-btn,.mail-btn {min-width:80px;}
+.co-profile .chat-btn i,.mail-btn i{margin-right:5px;}
+.co-profile .chat-btn{margin-right:5px;}
+.co-profile .me-3{margin:0;}
+
+.revision .re-table{height:320px;overflow: hidden;}
+.btn-compr{margin-top:200px;}
+.table{margin-bottom:0px !important;}
+.card h4{font-size:20px !important;}
+.third-com table{margin:50px 0;}
+
+
+/* milestone */
+.com-1{margin-top:35px;}
+.com-2 .mile-line{margin:40px 0;}
+.mile-label{padding:0;}
+.mile-label li{margin-bottom:31px;font-size:16px;font-weight:600;text-align: right;}
+.mile-cate{display:flex;}
+.mile-cate li{display: flex;flex-grow: 1;}
+.mile-circle{display:flex;}
+.mile-line{margin:20px 0;}
+.mile-circle{position:relative;}
+.mile-circle::after{width:100%; height:2px; background-color:#eef2f7; position:absolute;content: ''; left:0;top:8px;}
+.mile-circle li{position:relative;display: flex;flex-grow: 1;margin-bottom:20px;}
+.mile-circle li::after{width:18px;height:18px;left:0;top:0;position:absolute;content:'';border-radius: 50px;z-index: 1;}
+.mile-circle .mile-1::after{border:5px solid #5ECB9B;}
+.mile-circle .mile-2::after{border:5px solid #5BAECD;}
+.mile-circle .mile-3::after{border:5px solid #E9677E;}
+.mile-circle .mile-4::after{border:5px solid #ffbc00;}
+.mile-circle .mile-5::after{ border:5px solid #6c757d;}
+.mile-circle .mile-6::after{ border:5px solid #eef2f7;}
+
+
+@media (max-width: 1500px){
+    .mile-label li{font-size:12px;margin:25px 0; }
+}
+
+
+@media (min-width: 576px){
+    .modal-dialog{max-width: 400px !important;}
+}
