@@ -1,4 +1,2 @@
-## 칸반보드 샘플 앱
+## SECL VCS Web Application
 
-### 1. Declare ViewModel
-View Model 설계
